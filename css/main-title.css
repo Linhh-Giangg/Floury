@@ -1,0 +1,33 @@
+.container-title {
+  text-align: center;
+  background-color: white;
+  padding-bottom: 60px;
+  padding-top: 135px;
+}
+
+.main-title {
+  height: 297px;
+}
+
+.content-title {
+  font-size: 36px;
+  font-family: "Poppins";
+}
+
+.description {
+  padding-top: 20px;
+  font-size: 18px;
+  font-family: "Playfair Display";
+  font-weight: 400px;
+}
+
+.description::after {
+  content: "";
+  position: absolute;
+  margin-top: 24px;
+  left: 48%;
+  width: 70px;
+  display: block;
+  height: 2px;
+  background-color: #c88859;
+}
