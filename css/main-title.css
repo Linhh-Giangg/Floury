@@ -1,27 +1,29 @@
-.container-title {
+.comp-main-title {
   text-align: center;
-  background-color: white;
   padding-bottom: 60px;
-  padding-top: 135px;
+}
+
+.padding-top-100 {
+  padding-top: 100px;
+}
+
+.padding-bottom-100 {
+  padding-bottom: 100px;
 }
 
 .main-title {
-  height: 297px;
-}
-
-.content-title {
   font-size: 36px;
   font-family: "Poppins";
 }
 
-.description {
+.comp-main-title .description {
   padding-top: 20px;
   font-size: 18px;
   font-family: "Playfair Display";
   font-weight: 400px;
 }
 
-.description::after {
+.comp-main-title .description::after {
   content: "";
   position: absolute;
   margin-top: 24px;
@@ -30,4 +32,12 @@
   display: block;
   height: 2px;
   background-color: #c88859;
+}
+
+.text-l {
+  text-align: left;
+}
+
+.text-r {
+  text-align: right;
 }
