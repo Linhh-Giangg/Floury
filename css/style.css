@@ -29,7 +29,6 @@ body {
   line-height: 1.285;
   font-family: "Roboto", sans-serif;
   min-height: 2000px;
-  background-color: #eee;
 }
 
 .container {
@@ -71,4 +70,20 @@ body {
 
 .lg-jc-between {
   justify-content: space-between;
+}
+
+.padding-top-100 {
+  padding-top: 100px;
+}
+
+.padding-bottom-100 {
+  padding-bottom: 100px;
+}
+
+.text-l {
+  text-align: left;
+}
+
+.text-r {
+  text-align: right;
 }

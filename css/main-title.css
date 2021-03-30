@@ -1,33 +1,39 @@
-.container-title {
+.comp-main-title {
   text-align: center;
-  background-color: white;
   padding-bottom: 60px;
-  padding-top: 135px;
 }
 
 .main-title {
-  height: 297px;
-}
-
-.content-title {
   font-size: 36px;
   font-family: "Poppins";
 }
 
-.description {
+.comp-main-title .description {
   padding-top: 20px;
   font-size: 18px;
   font-family: "Playfair Display";
   font-weight: 400px;
 }
 
-.description::after {
-  content: "";
-  position: absolute;
+.comp-main-title .line-under-title {
+  line-height: 2px;
   margin-top: 24px;
-  left: 48%;
+  margin-bottom: 16px;
+}
+
+.comp-main-title .line-under-title span {
   width: 70px;
-  display: block;
   height: 2px;
   background-color: #c88859;
+}
+
+@media screen and (max-width: 600px) {
+  .main-title {
+    font-size: 30px;
+    font-family: "Poppins";
+  }
+
+  .comp-main-title .description {
+    font-size: 16px;
+  }
 }
