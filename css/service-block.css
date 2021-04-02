@@ -1,0 +1,110 @@
+.comp-service-block {
+  text-align: center;
+  margin: 0 215px;
+  color: #333;
+}
+
+.service-block {
+  font-weight: 700;
+  font-size: 36px;
+  font-family: "Poppins";
+}
+
+.comp-service-block .description {
+  padding-top: 20px;
+  font-size: 18px;
+  font-family: "Playfair Display";
+  font-weight: 400px;
+  text-align: center;
+}
+
+.comp-service-block .line-under-title {
+  line-height: 2px;
+  margin-top: 28px;
+  margin-bottom: 59px;
+}
+
+.comp-service-block .line-under-title span {
+  width: 70px;
+  height: 2px;
+  background-color: #c88859;
+}
+
+@media screen and (max-width: 600px) {
+  .service-block {
+    font-size: 30px;
+    font-family: "Poppins";
+  }
+
+  .comp-service-block .description {
+    font-size: 16px;
+  }
+}
+
+.lg-col-6 {
+  width: 50%;
+  min-height: 1px;
+  padding: 0 15px;
+}
+
+.items {
+  position: relative;
+  background-color: #f9f9f9;
+  height: 210px;
+  margin-bottom: 30px;
+}
+
+.items .items-img {
+  position: absolute;
+  width: 233px;
+  height: 210px;
+  background-color: white;
+  box-shadow: 5px 5px 10px #888888;
+  z-index: 1;
+}
+
+.items .items-total {
+  padding: 40px 20px 40px 257px;
+}
+
+.items .items-content {
+  color: #2c323a;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  padding-bottom: 7px;
+}
+
+.items .items-desc {
+  color: #6f7681;
+  font-family: "Poppins";
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.layer3 {
+  position: absolute;
+}
+
+.font {
+  top: 108px;
+  left: 95px;
+  position: absolute;
+  width: 50%;
+  height: 24%;
+}
+
+.layer4 {
+  position: absolute;
+  z-index: 2;
+}
+
+.woocommerce-svg {
+  top: 33px;
+  left: 38px;
+  position: absolute;
+  width: 44%;
+  height: 50%;
+  z-index: 3;
+}
