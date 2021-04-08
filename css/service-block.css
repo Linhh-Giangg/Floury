@@ -1,12 +1,12 @@
-.comp-service-block .items {
+.comp-service-block .item {
   background-color: #f9f9f9;
   min-height: 210px;
   margin-bottom: 30px;
   display: flex;
-  align-items: stretch;
+  align-item: stretch;
 }
 
-.comp-service-block .items-img {
+.comp-service-block .item-img {
   position: relative;
   width: 41%;
   text-align: center;
@@ -14,18 +14,18 @@
   box-shadow: 0 6px 40px 0 rgb(0 0 0 /15%);
 }
 
-.comp-service-block .items-img img {
+.comp-service-block .item-img img {
   text-align: center;
   vertical-align: middle;
 }
 
-.comp-service-block .items:hover {
+.comp-service-block .item:hover {
   transition: box-shadow 0.8s;
   min-height: 205px;
   box-shadow: 0 6px 40px 0 rgb(0 0 0 /40%);
 }
 
-.comp-service-block .items .items-content {
+.comp-service-block .item .item-content {
   width: 59%;
   float: left;
   height: auto;
@@ -34,7 +34,7 @@
   overflow: hidden;
 }
 
-.comp-service-block .items-content.items-topic {
+.comp-service-block .item-content.item-topic {
   color: #2c323a;
   font-family: "Poppins";
   font-size: 20px;
@@ -43,7 +43,7 @@
   padding-bottom: 7px;
 }
 
-.comp-service-block .items-content .items-desc {
+.comp-service-block .item-content .item-desc {
   color: #6f7681;
   font-family: "Poppins";
   font-size: 12px;
@@ -51,7 +51,7 @@
   height: auto;
 }
 
-.comp-service-block .items-img::after {
+.comp-service-block .item-img::after {
   content: "";
   height: 100%;
   display: inline-block;
@@ -65,8 +65,8 @@
     font-family: "Poppins";
   }
 
-  .comp-service-block .items,
-  .comp-service-block .items-img {
+  .comp-service-block .item,
+  .comp-service-block .item-img {
     min-height: 90px;
   }
 
@@ -74,22 +74,22 @@
     width: 100%;
   }
 
-  .comp-service-block .items-img img {
+  .comp-service-block .item-img img {
     object-fit: cover;
   }
 
-  .comp-service-block .items .items-content {
+  .comp-service-block .item .item-content {
     padding: 20px 10px;
   }
 
-  .comp-service-block .items-content .items-topic {
+  .comp-service-block .item-content .item-topic {
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
     padding-bottom: 5px;
   }
 
-  .comp-service-block .items-content .items-desc {
+  .comp-service-block .item-content .item-desc {
     font-size: 12px;
     line-height: 16px;
   }
