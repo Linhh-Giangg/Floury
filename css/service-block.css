@@ -31,6 +31,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  .comp-service-block {
+    margin: 0 auto;
+  }
   .service-block {
     font-size: 30px;
     font-family: "Poppins";
@@ -39,35 +42,66 @@
   .comp-service-block .description {
     font-size: 16px;
   }
+
+  .row .lg-col-6 {
+    width: 100%;
+  }
+
+  .items-img img {
+    object-fit: none;
+  }
+
+  .items .items-topic {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-bottom: 5px;
+  }
+
+  .items .items-desc {
+    color: #6f7681;
+    font-family: "Poppins";
+    font-size: 10px;
+    line-height: 20px;
+  }
 }
 
-.lg-col-6 {
-  width: 50%;
-  min-height: 1px;
-  padding: 0 15px;
-}
-
-.items {
-  position: relative;
+.services-block .items {
   background-color: #f9f9f9;
-  height: 210px;
+  min-height: 210px;
   margin-bottom: 30px;
+  display: flex;
+  align-items: stretch;
 }
 
 .items .items-img {
-  position: absolute;
-  width: 233px;
-  height: 210px;
+  width: 41%;
+  min-height: 210px;
+  text-align: center;
   background-color: white;
-  box-shadow: 5px 5px 10px #888888;
-  z-index: 1;
+  box-shadow: 0 6px 40px 0 rgb(0 0 0 /15%);
+  float: left;
 }
 
-.items .items-total {
-  padding: 40px 20px 40px 257px;
+.items-img img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.items:hover {
+  box-shadow: 0 6px 40px 0 rgb(0 0 0 /40%);
 }
 
 .items .items-content {
+  width: 59%;
+  float: left;
+  height: auto;
+  padding: 40px 20px;
+  background-color: #fafafa;
+  overflow: hidden;
+}
+
+.items .items-topic {
   color: #2c323a;
   font-family: "Poppins";
   font-size: 20px;
@@ -81,30 +115,19 @@
   font-family: "Poppins";
   font-size: 12px;
   line-height: 22px;
+  height: auto;
 }
 
-.layer3 {
-  position: absolute;
-}
+/* .items-img::after {
+  content: "";
+  min-height: 210px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0;
+} */
 
-.font {
-  top: 108px;
-  left: 95px;
-  position: absolute;
-  width: 50%;
-  height: 24%;
-}
-
-.layer4 {
-  position: absolute;
-  z-index: 2;
-}
-
-.woocommerce-svg {
-  top: 33px;
-  left: 38px;
-  position: absolute;
-  width: 44%;
-  height: 50%;
-  z-index: 3;
+.items-img img {
+  min-height: 210px;
+  display: inline-block;
+  vertical-align: middle;
 }

@@ -32,7 +32,7 @@ body {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -46,6 +46,10 @@ body {
 
 .row .lg-col-7 {
   width: 58.33333333%;
+}
+
+.row .lg-col-6 {
+  width: 50%;
 }
 
 .row .lg-col-5 {
